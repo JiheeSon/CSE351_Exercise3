@@ -28,6 +28,7 @@ We created two .csv files which are subdivided by the tweet labels from the main
 
 ## Data analysis tool and procedure
 We used orange for the data analysis tool.  
+https://orange.biolab.si/  
 ![orange](./pic/orange.jpg)  
 <br/><br/>
 *Our first Try:* Weight each words based on its frequency and compute scores of each sentences. Based on appearance of higher weighted words, we can classify tweets as love tweet or hate tweet.  
