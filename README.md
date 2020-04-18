@@ -36,9 +36,14 @@ Step 4: Weight each words according its frequency.
 Step 1: Preprocess and analyze test data.  
 Step 2: Sentiment Analysis.  
 Step 3: Select data for classification.
-
 Step 4: Write and used python code for classification.  
 
+## Classification Pseudocode:
+If pos-neg >0:
+  Classification = "Positive"
+else :
+  Classification = "Negative"
+ 
 ## Result Description
 Results (Classification)
 Label 0 stands for Positive Tweet
