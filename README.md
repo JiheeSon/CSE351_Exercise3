@@ -59,7 +59,7 @@ Results (Classification)
 Label 0 stands for Positive Tweet  
 Label 1 stands for Negative Tweet  
 Success!  
-![result](./pic/final_result.jpg)
+![result](./pic/fianl_result.jpg)
 
 ## Authors  
 Seungjoo Choi  
