@@ -1,5 +1,6 @@
 # CSE351_Exercise3  
-We solved a data challenge regarding twitter classification as a group project.
+We solved a data challenge regarding twitter classification as a group project.  
+https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis/  
 
 ## Problem statement  
 The objective of this task is to detect hate speech in tweets. For the sake of simplicity, we say a tweet contains hate speech if it has a racist or sexist sentiment associated with it. So, the task is to classify racist or sexist tweets from other tweets.  
