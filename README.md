@@ -36,6 +36,7 @@ Step 4: Weight each words according its frequency.
 Step 1: Preprocess and analyze test data.  
 Step 2: Sentiment Analysis.  
 Step 3: Select data for classification.
+
 Step 4: Write and used python code for classification.  
 
 ## Result Description
