@@ -24,27 +24,38 @@ We used the following approach to solve the data challenge.
 We preprocessed data using tweetPreprocess.py python code. We removed redundant words and modified recurrent words. We considered the word with common etymology as same for more accuarate classification. For example, we considered *programming*, *programmer*, *programmed*, *etc* as same as they have common meaning related to *programming*.  
 We created two .csv files which are subdivided by the tweet labels from the main dataset. 
 ![dataPreprocess](./pic/dataPreprocess.jpg)
+<br/><br/>
 
 ## Data analysis tool and procedure
 We used orange for the data analysis tool.  
 ![orange](./pic/orange.jpg)  
+<br/><br/>
 *Our first Try:* Weight each words based on its frequency and compute scores of each sentences. Based on appearance of higher weighted words, we can classify tweets as love tweet or hate tweet.  
+<br/><br/>
 Step 1: Install oraged add-ons for preprocessed text.  
 ![add-ons](./pic/installAddOn.jpg)  
+<br/><br/>
 Step 2: Sort the words in frequency.  
 ![wordFrequency](./pic/wordFrequency.jpg)  
+<br/><br/>
 Step 3: Create word cloud / data table for label 0 and 1.  
 ![hate_cloud](./pic/hate_cloud.jpg)
 ![love_cloud](./pic/love_cloud.jpg)  
+<br/><br/>
 Step 4: Weight each words according its frequency.  
 손지희 잊지말고 설명써라  
+
+<br/><br/>
 *Our second Try:* 손지희 여기도  
 Step 1: Preprocess and analyze test data.  
 ![testdata_preprocess](./pic/testdata_preprocess.jpg)  
+<br/><br/>
 Step 2: Sentiment Analysis.  
 ![sentimental_analysis](./pic/sentimental_analysis.jpg)  
+<br/><br/>
 Step 3: Select data for classification.  
 ![select](./pic/data_select.jpg)  
+<br/><br/>
 Step 4: Write and used python code for classification.  
 ![pycode](./pic/python_code.jpg)  
 
