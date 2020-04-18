@@ -23,32 +23,57 @@ We used the following approach to solve the data challenge.
 ## Data Preprocessing and final dataset  
 We preprocessed data using tweetPreprocess.py python code. We removed redundant words and modified recurrent words. We considered the word with common etymology as same for more accuarate classification. For example, we considered *programming*, *programmer*, *programmed*, *etc* as same as they have common meaning related to *programming*.  
 We created two .csv files which are subdivided by the tweet labels from the main dataset. 
+![dataPreprocess](./pic/dataPreprocess.jpg)
+<br/><br/>
 
 ## Data analysis tool and procedure
 We used orange for the data analysis tool.  
+![orange](./pic/orange.jpg)  
+<br/><br/>
 *Our first Try:* Weight each words based on its frequency and compute scores of each sentences. Based on appearance of higher weighted words, we can classify tweets as love tweet or hate tweet.  
+<br/><br/>
 Step 1: Install oraged add-ons for preprocessed text.  
+![add-ons](./pic/installAddOn.jpg)  
+<br/><br/>
 Step 2: Sort the words in frequency.  
+![wordFrequency](./pic/wordFrequency.jpg)  
+<br/><br/>
 Step 3: Create word cloud / data table for label 0 and 1.  
+![hate_cloud](./pic/hate_cloud.jpg)
+![love_cloud](./pic/love_cloud.jpg)  
+<br/><br/>
 Step 4: Weight each words according its frequency.  
+We were stuch at this point. We considerd a lot to figure out reasonable weight for each words.    
 
-*Our second Try:*  
+<br/><br/>
+*Our second Try:* After some research we decided to try sentiment analsis.    
 Step 1: Preprocess and analyze test data.  
+![testdata_preprocess](./pic/testdata_preprocess.jpg)  
+<br/><br/>
 Step 2: Sentiment Analysis.  
-Step 3: Select data for classification.
+![sentimental_analysis](./pic/sentimental_analysis.jpg)  
+<br/><br/>
+Step 3: Select data for classification.  
+![select](./pic/data_select.jpg)  
+<br/><br/>
 Step 4: Write and used python code for classification.  
+![pycode](./pic/python_code.jpg)  
 
-## Classification Pseudocode:
-If pos-neg >0:    
-    <p>Classification = "Positive"</p>    
+## Classification Pseudocode:  
+```  
+If pos-neg >0:  
+   Classification = "Positive"    
 else :  
-    <p>Classification = "Negative"</p>  
+   Classification = "Negative"  
+```
  
 ## Result Description
-Results (Classification)
-Label 0 stands for Positive Tweet
-Label 1 stands for Negative Tweet
+Results (Classification)  
+Label 0 stands for Positive Tweet  
+Label 1 stands for Negative Tweet  
 Success!  
+![result](./pic/fianl_result.jpg)
+
 ## Authors  
 Seungjoo Choi  
 Wenhui Jin  
