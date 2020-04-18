@@ -38,7 +38,10 @@ Step 2: Sentiment Analysis.
 Step 3: Select data for classification.
 Step 4: Write and used python code for classification.  
 
-## Result  
+## Result Description
+Results (Classification)
+Label 0 stands for Positive Tweet
+Label 1 stands for Negative Tweet
 Success!  
 ## Authors  
 Seungjoo Choi  
