@@ -21,13 +21,13 @@ We used the following approach to solve the data challenge.
 6. Make Prediction
 
 ## Data Preprocessing and final dataset  
-We preprocessed data using //tweetPreprocess.py python code. We removed redundant words and modified recurrent words. We considered the word with common etymology as same for more accuarate classification. For example, we considered *programming*, *programmer*, *programmed*, *etc* as same as they have common meaning related to *programming*.  
+We preprocessed data using tweetPreprocess.py python code. We removed redundant words and modified recurrent words. We considered the word with common etymology as same for more accuarate classification. For example, we considered *programming*, *programmer*, *programmed*, *etc* as same as they have common meaning related to *programming*.  
 We created two .csv files which are subdivided by the tweet labels from the main dataset. 
 
 ## Data analysis tool and procedure
 We used orange for the data analysis tool.  
 *Our first Try:* Weight each words based on its frequency and compute scores of each sentences. Based on appearance of higher weighted words, we can classify tweets as love tweet or hate tweet.  
-Step 1: Install oraged add-ons for text.  
+Step 1: Install oraged add-ons for preprocessed text.  
 Step 2: Sort the words in frequency.  
 Step 3: Create word cloud / data table for label 0 and 1.  
 Step 4: Weight each words according its frequency.  
