@@ -73,7 +73,7 @@ else :
 Results (Classification)  
 Label 0 stands for Positive Tweet  
 Label 1 stands for Negative Tweet  
-Success!  
+The tweets are labeled successfully.    
 ![result](./pic/fianl_result.jpg)
 
 ## Authors  
