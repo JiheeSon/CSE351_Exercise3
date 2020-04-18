@@ -21,7 +21,7 @@ We used the following approach to solve the data challenge.
 6. Make Prediction
 
 ## Data Preprocessing and final dataset  
-We preprocessed data using //코드이름.py python code. We removed redundant words and modified recurrent words. We considered the word with common etymology as same for more accuarate classification. For example, we considered *programming*, *programmer*, *programmed*, *etc* as same as they have common meaning related to *programming*.  
+We preprocessed data using //tweetPreprocess.py python code. We removed redundant words and modified recurrent words. We considered the word with common etymology as same for more accuarate classification. For example, we considered *programming*, *programmer*, *programmed*, *etc* as same as they have common meaning related to *programming*.  
 We created two .csv files which are subdivided by the tweet labels from the main dataset. 
 
 ## Data analysis tool and procedure
