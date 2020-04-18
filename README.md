@@ -10,7 +10,7 @@ Formally, given a training sample of tweets and labels, where label '1' denotes 
 The dataset is a .csv file with three colums; tweet id, label and a tweet data.  
 * A tweet id is an integer value for identifying each tweets.  
 * A label is used for classifying each tweets as love or hate. A tweet is labeled as 0 if it contains racist or sexist comments and 1 if it does not contains racist or sexists comments.  
-* A tweet data is string value of tweet comments that users have posted.  
+* A tweet data is a string value of tweet comments that users have posted.  
 
 ## Approach for solving problem  
 We used the following approach to solve the data challenge.  
