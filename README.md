@@ -43,10 +43,10 @@ Step 3: Create word cloud / data table for label 0 and 1.
 ![love_cloud](./pic/love_cloud.jpg)  
 <br/><br/>
 Step 4: Weight each words according its frequency.  
-손지희 잊지말고 설명써라  
+We were stuch at this point. We considerd a lot to figure out reasonable weight for each words.    
 
 <br/><br/>
-*Our second Try:* 손지희 여기도  
+*Our second Try:* After some research we decided to try sentiment analsis.    
 Step 1: Preprocess and analyze test data.  
 ![testdata_preprocess](./pic/testdata_preprocess.jpg)  
 <br/><br/>
@@ -59,11 +59,13 @@ Step 3: Select data for classification.
 Step 4: Write and used python code for classification.  
 ![pycode](./pic/python_code.jpg)  
 
-## Classification Pseudocode:
+## Classification Pseudocode:  
+```  
 If pos-neg >0:  
-Classification = "Positive"    
+   Classification = "Positive"    
 else :  
-Classification = "Negative"
+   Classification = "Negative"  
+```
  
 ## Result Description
 Results (Classification)  
