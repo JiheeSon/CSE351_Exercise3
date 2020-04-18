@@ -26,30 +26,29 @@ We created two .csv files which are subdivided by the tweet labels from the main
 
 ## Data analysis tool and procedure
 We used orange for the data analysis tool.  
-![orange](./pic/orange.PNG)  
 *Our first Try:* Weight each words based on its frequency and compute scores of each sentences. Based on appearance of higher weighted words, we can classify tweets as love tweet or hate tweet.  
 Step 1: Install oraged add-ons for preprocessed text.  
-![add-ons](./pic/installAddOn.PNG)  
 Step 2: Sort the words in frequency.  
-![word_frequency](./pic/wordFrequency.PNG)  
 Step 3: Create word cloud / data table for label 0 and 1.  
-![hate_cloud](./pic/hate_cloud.PNG)
-![love_cloud](./pic/love_cloud.PNG)  
 Step 4: Weight each words according its frequency.  
-손지희 잊지말고 설명써라  
-*Our second Try:*  손지희 잊지말고 설명써라
-Step 1: Preprocess and analyze test data.  
-![testdata_preprocess](./pic/testdata_preprocess.PNG)  
-Step 2: Sentiment Analysis. 
-![sentiment](./pic/sentimental_analysis.PNG)
-Step 3: Select data for classification.  
-![select](./pic/testdata.PNG)  
-Step 4: Write and used python code for classification.  
-![pycode](./pic/python_code.PNG)  
 
-## Result  
+*Our second Try:*  
+Step 1: Preprocess and analyze test data.  
+Step 2: Sentiment Analysis.  
+Step 3: Select data for classification.
+Step 4: Write and used python code for classification.  
+
+## Classification Pseudocode:
+If pos-neg >0:    
+    Classification = "Positive"    
+else :  
+    Classification = "Negative"  
+ 
+## Result Description
+Results (Classification)
+Label 0 stands for Positive Tweet
+Label 1 stands for Negative Tweet
 Success!  
-![fianl_result](./pic/final_result.PNG)
 ## Authors  
 Seungjoo Choi  
 Wenhui Jin  
