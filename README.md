@@ -40,9 +40,9 @@ Step 4: Write and used python code for classification.
 
 ## Classification Pseudocode:
 If pos-neg >0:    
-    Classification = "Positive"    
+    <p>Classification = "Positive"</p>    
 else :  
-    Classification = "Negative"  
+    <p>Classification = "Negative"</p>  
  
 ## Result Description
 Results (Classification)
