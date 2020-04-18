@@ -29,11 +29,9 @@ We created two .csv files which are subdivided by the tweet labels from the main
 ## Data analysis tool and procedure
 We used orange for the data analysis tool.  
 ![orange](./pic/orange.jpg)  
-<br/><br/>
 
 ### First Try
 Our first Try: Weight each words based on its frequency and compute scores of each sentences. Based on appearance of higher weighted words, we can classify tweets as love tweet or hate tweet.  
-<br/><br/>
 Step 1: Install oraged add-ons for preprocessed text.  
 ![add-ons](./pic/installAddOn.jpg)  
 <br/><br/>
@@ -47,7 +45,6 @@ Step 3: Create word cloud / data table for label 0 and 1.
 Step 4: Weight each words according its frequency.  
 We were stuch at this point. We considerd a lot to figure out reasonable weight for each words.    
 
-<br/><br/>
 ### Second Try
 Our second Try: After some research we decided to try sentiment analsis.    
 Step 1: Preprocess and analyze test data.  
