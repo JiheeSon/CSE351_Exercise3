@@ -76,6 +76,7 @@ Success!
 ![result](./pic/fianl_result.jpg)
 
 ## Authors  
-Seungjoo Choi  
-Wenhui Jin  
-Jihee Son
+**Seungjoo Choi, Email: seungjoo.choi@stonybrook.edu**  
+**Wenhui Jin, Email: wenhui.jin@stonybrook.edu**  
+**Jihee Son, Email: jihee.Son@stonybrook.edu**  
+
